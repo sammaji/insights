@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json.schemastore.org/chrome-manifest",
+    "manifest_version": 3,
+    "name": "Testing Auth",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+
+    "minimum_chrome_version": "93",
+    
+    "host_permissions": [
+        "*://next-garfish-46.clerk.accounts.dev/"
+    ],
+
+    "permissions": [
+        "storage", "cookies"
+    ]
+}
