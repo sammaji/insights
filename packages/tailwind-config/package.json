@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-config",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Samyabrata Maji <samyabratamaji334@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwind": "^4.0.0"
+  }
+}
