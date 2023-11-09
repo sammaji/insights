@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.16",
     "next": "^13.4.19",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.5",
     "ui": "workspace:*"
   },
   "devDependencies": {
@@ -20,6 +23,7 @@
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "eslint-config-custom": "workspace:*",
+    "tailwind-config": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.3"
   }
